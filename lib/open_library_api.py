@@ -34,7 +34,7 @@ class Search:
 
     def get_user_search_results(self, search_term):
         search_term_formatted = search_term.replace(" ", "+")
-        fields = ["title", "author_name"]
+        fields = ["title.", "author_name"]
         fields_formatted = ",".join(fields)
         limit = 1
 
